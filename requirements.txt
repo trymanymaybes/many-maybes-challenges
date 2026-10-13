@@ -1,0 +1,3 @@
+Pillow>=10.1,<13
+svg-turtle==1.2.0
+cairosvg==2.9.1
