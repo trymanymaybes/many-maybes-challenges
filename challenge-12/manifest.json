@@ -1,8 +1,7 @@
 {
   "id": "12",
-  "title": "Same shape. Different story.",
-  "principle": "Visual context and interpretation",
-  "related_concept": "Framing effect, illustrated separately with fixed seedling facts",
+  "revision": 2,
+  "title": "Same garden. Different feeling.",
   "starter_paths": [
     [
       [
@@ -257,30 +256,50 @@
       ]
     ]
   ],
+  "principle": "Framing through captions and selective visual emphasis",
+  "fixed_facts": {
+    "total_pots": 10,
+    "growing_ids": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8
+    ],
+    "no_shoot_ids": [
+      4,
+      5,
+      9,
+      10
+    ]
+  },
+  "rules": [
+    "Preserve starter and complete physical garden across interpretations.",
+    "Insets repeat existing details, never add plants.",
+    "Change editorial emphasis and caption, not outcome or causes."
+  ],
   "examples": [
     {
-      "id": "starter",
-      "image": "challenge-12-starter.svg",
-      "code": "starter.py",
-      "alt": "A faceless stick figure stands with feet apart on a horizontal line. No surroundings establish the setting."
+      "id": "optimism",
+      "image": "challenge-12-optimism.svg",
+      "code": "optimism.py",
+      "thought": "There is growth worth appreciating.",
+      "caption": "Six seedlings grew \u2014 more than half."
     },
     {
-      "id": "bridge",
-      "image": "challenge-12-bridge.svg",
-      "code": "bridge.py",
-      "alt": "The unchanged figure and line form a bridge spanning two cliff edges, with water marks far below. Added context suggests a high crossing."
+      "id": "pessimism",
+      "image": "challenge-12-pessimism.svg",
+      "code": "pessimism.py",
+      "thought": "The missing growth dominates my view.",
+      "caption": "Four seedlings did not grow \u2014 two in five."
     },
     {
-      "id": "stage",
-      "image": "challenge-12-stage.svg",
-      "code": "stage.py",
-      "alt": "The unchanged figure stands on a stage outlined beneath the original line, framed by curtains and audience silhouettes."
-    },
-    {
-      "id": "jetty",
-      "image": "challenge-12-jetty.svg",
-      "code": "jetty.py",
-      "alt": "The unchanged figure stands on a jetty with planks and supports, beside a shoreline and water ripples."
+      "id": "curiosity",
+      "image": "challenge-12-curiosity.svg",
+      "code": "curiosity.py",
+      "thought": "Understand the result before judging.",
+      "caption": "Of ten seedlings, six grew and four did not."
     }
   ],
   "video_status": "screenplay_only_on_hold",

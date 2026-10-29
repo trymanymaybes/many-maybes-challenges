@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" role="img" aria-labelledby="title desc">
-<title id="title">Challenge 12: starter</title>
-<desc id="desc">A faceless stick figure stands with feet apart on a horizontal line. No surroundings establish the setting.</desc>
-<rect width="800" height="650" fill="#fffdf7"/>
-<g id="starter" fill="none" stroke="#234b43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-<polyline points="422.0,220.0 421.812,222.872 421.25,225.694 420.325,228.419 419.053,231.0 417.454,233.393 415.556,235.556 413.393,237.454 411.0,239.053 408.419,240.325 405.694,241.25 402.872,241.812 400.0,242.0 397.128,241.812 394.306,241.25 391.581,240.325 389.0,239.053 386.607,237.454 384.444,235.556 382.546,233.393 380.947,231.0 379.675,228.419 378.75,225.694 378.188,222.872 378.0,220.0 378.188,217.128 378.75,214.306 379.675,211.581 380.947,209.0 382.546,206.607 384.444,204.444 386.607,202.546 389.0,200.947 391.581,199.675 394.306,198.75 397.128,198.188 400.0,198.0 402.872,198.188 405.694,198.75 408.419,199.675 411.0,200.947 413.393,202.546 415.556,204.444 417.454,206.607 419.053,209.0 420.325,211.581 421.25,214.306 421.812,217.128 422.0,220.0"/>
-<polyline points="400,242 400,310"/>
-<polyline points="365,280 400,260 435,280"/>
-<polyline points="400,310 375,350"/>
-<polyline points="400,310 425,350"/>
-<polyline points="200,350 600,350"/>
-</g>
-<g id="context" fill="none" stroke="#526c83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 650" role="img" aria-labelledby="t d"><title id="t">Fixed starter</title><desc id="d">A faceless person standing on a horizontal line.</desc><rect width="800" height="650" fill="#fffdf7"/><g id="starter"><polyline points="422.0,220.0 421.812,222.872 421.25,225.694 420.325,228.419 419.053,231.0 417.454,233.393 415.556,235.556 413.393,237.454 411.0,239.053 408.419,240.325 405.694,241.25 402.872,241.812 400.0,242.0 397.128,241.812 394.306,241.25 391.581,240.325 389.0,239.053 386.607,237.454 384.444,235.556 382.546,233.393 380.947,231.0 379.675,228.419 378.75,225.694 378.188,222.872 378.0,220.0 378.188,217.128 378.75,214.306 379.675,211.581 380.947,209.0 382.546,206.607 384.444,204.444 386.607,202.546 389.0,200.947 391.581,199.675 394.306,198.75 397.128,198.188 400.0,198.0 402.872,198.188 405.694,198.75 408.419,199.675 411.0,200.947 413.393,202.546 415.556,204.444 417.454,206.607 419.053,209.0 420.325,211.581 421.25,214.306 421.812,217.128 422.0,220.0" fill="none" stroke="#294d44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="400,242 400,310" fill="none" stroke="#294d44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="365,280 400,260 435,280" fill="none" stroke="#294d44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="400,310 375,350" fill="none" stroke="#294d44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="400,310 425,350" fill="none" stroke="#294d44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><polyline points="200,350 600,350" fill="none" stroke="#294d44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

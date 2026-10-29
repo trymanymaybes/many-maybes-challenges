@@ -1,47 +1,53 @@
-# Challenge 12 — Same shape. Different story.
+# Challenge 12 — Same garden. Different feeling.
 
-Start with one faceless stick figure standing on a horizontal line. Create three scenes around the exact same starter. What can you make someone imagine by changing the surroundings?
+Revision 2 replaces the bridge/stage/jetty exercise with **framing through captions and selective visual emphasis**. The creative question is: **Can you change how a garden feels without changing what happened?**
 
-![The fixed starter](challenge-12-starter.svg)
+## Review the illustrations
 
-## Try it
+- [Optimism — Look what has grown](challenge-12-optimism.svg)
+- [Pessimism — Look what has not grown](challenge-12-pessimism.svg)
+- [Curiosity — What can we learn?](challenge-12-curiosity.svg)
 
-1. Copy the starter three times, or run `starter.py` with Python Turtle.
-2. Keep the figure, pose, line, and their relative positions unchanged. Do not erase, cover, move, or reshape the starter. Uniformly scaling the entire drawing is allowed.
-3. Add surroundings to suggest three different situations. Keep the starter clearly visible. Color is optional; aim to communicate through shapes and placement first.
-4. Give each scene a title and identify the two added clues that contribute most to its meaning.
-5. Show the pictures without titles to someone. Ask what they see before explaining your intention. Different readings are welcome.
+![Optimistic framing of the detailed garden](challenge-12-optimism.svg)
+![Pessimistic framing of the identical garden](challenge-12-pessimism.svg)
+![Curious framing of the identical garden](challenge-12-curiosity.svg)
 
-Paper, freehand drawing and Turtle all work. Rough sketches count. A text-only alternative is to describe three settings around the unchanged person and line, naming two clues for each.
+## Starter and fixed facts
 
-## Thinking hints
+The original starter remains [one faceless figure and one horizontal line](challenge-12-starter.svg). In this revised exercise, that simple shape is supplemented by a fixed scene brief: a gardener and planting bench with ten numbered pots. Pots 1, 2, 3, 6, 7 and 8 have shoots; pots 4, 5, 9 and 10 do not. We describe the supplied result as six seedlings grew and four did not; the picture alone does not prove why or predict what happens next.
 
-- What could the line be a part of?
-- What could be above, beneath, or beside the person?
-- What would make the same pose seem cautious, performative, or restful?
-- What is visibly present, and what story are you inferring?
-- Can you remove a detail while keeping the interpretation clear?
+The bench, fence, paving, watering can, empty seed tray, seed envelope, gloves and tools provide a rich shared setting. They are identical across all versions. The character is a stylized fixed mark; do not change its expression or pose to communicate the viewpoint.
 
-## Three illustrative possibilities
+## Your challenge
 
-These are examples, not correct answers or participant submissions.
+1. Draw the shared garden once, retaining the original figure and line, or use the supplied complete garden.
+2. Copy that complete scene three times. Preserve all objects, counts, growth, positions and details. Keep all ten pots visible and countable. You may uniformly scale the entire scene.
+3. Create an optimistic, pessimistic and curious interpretation using a caption and visual emphasis. You may use an annotation frame, an enlarged copy of an existing detail, or a separate observation panel. Label repeated details as insets, not additional objects.
+4. For each version, write **thought → evidence → drawing choice → intended feeling**. Make the connection concrete.
+5. Show the pictures before naming the viewpoints. Ask what the viewer notices and feels. A different response is useful feedback, not a wrong answer.
 
-| Example | Added strokes and why | Possible interpretation |
-|---|---|---|
-| [Bridge](challenge-12-bridge.svg) | Cliff edges establish a gap; the deck gives the line structure; distant water establishes height. | A cautious crossing. |
-| [Stage](challenge-12-stage.svg) | A stage front gives the line a platform; curtains locate the scene; an audience introduces being watched. | A performer pausing, or someone nervous about beginning. |
-| [Jetty](challenge-12-jetty.svg) | Planks and supports establish a jetty; shore and ripples locate it beside water. | A quiet pause, or someone waiting. |
+Paper, freehand and Turtle all work. The text-only alternative is to describe the fixed garden and propose three captions plus the visual detail you would emphasize.
 
-## Connection to the seedling example
+## Thought drives drawing
 
-Imagine ten seedlings: six grew and four did not. “Six grew” and “Four did not grow” emphasize different aspects of the same result. This is an introductory illustration of framing; it does not establish that every viewer will react differently.
+| Viewpoint | Thought | Evidence selected | Drawing decision | Intended reading |
+|---|---|---|---|---|
+| Optimism | There is growth worth appreciating. | Six shoots exist. | Repeat three existing growing pots at a larger scale; retain every leaf and vein; caption “Six seedlings grew — more than half.” | Appreciation of the growth, without erasing the missing growth. |
+| Pessimism | The missing growth dominates my view. | Four pots have no shoots. | Repeat two existing bare pots at a larger scale; emphasize their soil and rims; caption “Four seedlings did not grow — two in five.” | Disappointment or concern about missing growth, without removing successful growth. |
+| Curiosity | Understand the result before judging. | Both counts are known; causes and expectations are unknown. | Give the full scene equal attention; draw a separate observation sheet recording 6/4 and unanswered questions. | Interest in finding out more. Curiosity is an additional inquiry stance, not a claim of perfect neutrality. |
 
-In our drawing exercise, the fixed person and line play the role of the unchanged seedlings. The surrounding details play a role similar to the captions in guiding interpretation. The analogy has a limit: captions rephrase the same facts, whereas bridge, stage and jetty details introduce new information and create different situations. Label this activity **visual context and interpretation**, with framing as the related introductory concept, not as an exact controlled demonstration of the framing effect.
+The inset is a selection, not a claim that it shows every pot in that outcome group. Pot numbers trace each magnified detail back to the complete garden. The observation sheet is an editorial annotation outside the scene, not an object that appears only in one physical garden.
 
-Reflection: What did you draw, and what did the viewer's imagination add? What changed when you supplied a title?
+## What the seedling example explains
 
-## Turtle sources and accessibility
+“Six grew” and “Four did not grow” describe complementary parts of the same outcome. Their emphasis may influence interpretation. We now extend that idea to visual emphasis: the physical scene is fixed, while a caption and annotation guide attention. This is an illustrative creative exercise, not a psychological test or proof of a universal viewer response. Different accent colors are design choices; isolate caption effects separately if testing wording alone.
 
-Run `python -i starter.py` (or `bridge.py`, `stage.py`, `jetty.py`) with Python 3 and Tkinter installed. Interactive mode keeps the window open. Scripts are standalone and use visible `st()` for drawing, `ht()` for pen-up travel and final viewing. They create no audio or video. All SVGs include descriptive titles and alternative text; `manifest.json` also records descriptions and the exact fixed geometry.
+Do not add rain, dead plants, happy faces, butterflies, new growth, blame, or predictions to manufacture a viewpoint. Do not draw roots or causes we cannot see. A growing result cannot be judged good or bad without expectations or comparison.
 
-Video screenplays are prepared separately in the private source repository. Video creation is on hold. This Git update does not deploy a website page.
+Reflection: Which strokes were observations? Which were editorial choices? Did your intended feeling reach the viewer? What would you need to know before judging the garden?
+
+## Files and use
+
+`optimism.py`, `pessimism.py` and `curiosity.py` are standalone standard-library Turtle drawings. Run `python -i optimism.py` to keep the window open. `starter.py` preserves the original simple shape. All active strokes use `st()`; pen-up travel and final holds use `ht()`. No video or audio is created.
+
+SVGs carry descriptive title/alt text. `scene.json` stores shared physical paths and pot identities; `manifest.json` records constraints. Private source includes a reproducible static asset builder and updated screenplays. Videos remain on hold, and the website is not deployed by this revision.
