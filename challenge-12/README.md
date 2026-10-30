@@ -1,53 +1,35 @@
-# Challenge 12 — Same garden. Different feeling.
+# Challenge 12 — Same garden. Different frame.
 
-Revision 2 replaces the bridge/stage/jetty exercise with **framing through captions and selective visual emphasis**. The creative question is: **Can you change how a garden feels without changing what happened?**
+**Revision 3: cutout-book edition.** One detailed garden sits behind three illustrated paper pages. Their openings reveal different evidence. Lift a page to discover what it hid.
 
-## Review the illustrations
+## Review the designs
 
-- [Optimism — Look what has grown](challenge-12-optimism.svg)
-- [Pessimism — Look what has not grown](challenge-12-pessimism.svg)
-- [Curiosity — What can we learn?](challenge-12-curiosity.svg)
+| Page | Closed-page design | Transparent overlay | Cutting template |
+|---|---|---|---|
+| Optimism | [Look what grew](challenge-12-optimism.svg) | [Six windows](optimism-overlay.svg) | [Template](optimism-cut-template.svg) |
+| Pessimism | [Look what is missing](challenge-12-pessimism.svg) | [Four windows](pessimism-overlay.svg) | [Template](pessimism-cut-template.svg) |
+| Curiosity | [What else is there?](challenge-12-curiosity.svg) | [Wide window](curiosity-overlay.svg) | [Template](curiosity-cut-template.svg) |
 
-![Optimistic framing of the detailed garden](challenge-12-optimism.svg)
-![Pessimistic framing of the identical garden](challenge-12-pessimism.svg)
-![Curious framing of the identical garden](challenge-12-curiosity.svg)
+[The complete garden revealed](garden-base.svg) · [Detailed design and assembly plan](DESIGN-PLAN.md)
 
-## Starter and fixed facts
+Download `review.html` and open it in a browser for a self-contained page-lift comparison and print layouts. GitHub displays its source rather than running it. No website deployment or sign-in is needed.
 
-The original starter remains [one faceless figure and one horizontal line](challenge-12-starter.svg). In this revised exercise, that simple shape is supplemented by a fixed scene brief: a gardener and planting bench with ten numbered pots. Pots 1, 2, 3, 6, 7 and 8 have shoots; pots 4, 5, 9 and 10 do not. We describe the supplied result as six seedlings grew and four did not; the picture alone does not prove why or predict what happens next.
+![Optimism mask over the garden](challenge-12-optimism.svg)
+![Pessimism mask over the same garden](challenge-12-pessimism.svg)
+![Curiosity mask over the same garden](challenge-12-curiosity.svg)
 
-The bench, fence, paving, watering can, empty seed tray, seed envelope, gloves and tools provide a rich shared setting. They are identical across all versions. The character is a stylized fixed mark; do not change its expression or pose to communicate the viewpoint.
+## The challenge
 
-## Your challenge
+Use the supplied complete garden as your starter. Design three opaque foreground pages with openings that invite optimistic, pessimistic and curious readings. Keep the base unchanged: ten pots, six with shoots, four without. You may hide parts with the foreground page; you may not alter the underlying result. Explain your thought, the evidence you reveal, the evidence you conceal and the feeling you intend. Then lift the page and ask whether your viewer's impression changes.
 
-1. Draw the shared garden once, retaining the original figure and line, or use the supplied complete garden.
-2. Copy that complete scene three times. Preserve all objects, counts, growth, positions and details. Keep all ten pots visible and countable. You may uniformly scale the entire scene.
-3. Create an optimistic, pessimistic and curious interpretation using a caption and visual emphasis. You may use an annotation frame, an enlarged copy of an existing detail, or a separate observation panel. Label repeated details as insets, not additional objects.
-4. For each version, write **thought → evidence → drawing choice → intended feeling**. Make the connection concrete.
-5. Show the pictures before naming the viewpoints. Ask what the viewer notices and feels. A different response is useful feedback, not a wrong answer.
+The old person-and-line starter remains within the garden but is no longer the entire task brief. The original seedling wording example introduces the related idea of framing. Masks go further by withholding evidence: say so explicitly. Different viewers may respond differently; the images are not a psychological test.
 
-Paper, freehand and Turtle all work. The text-only alternative is to describe the fixed garden and propose three captions plus the visual detail you would emphasize.
+## Assemble or draw
 
-## Thought drives drawing
+Print base and overlay at identical scale. Cut the inner openings and align the registration crosses. Place **one overlay at a time** over the base. Do not stack all three. Read the detailed plan before assembly; a physical print/cut trial has not yet been performed.
 
-| Viewpoint | Thought | Evidence selected | Drawing decision | Intended reading |
-|---|---|---|---|---|
-| Optimism | There is growth worth appreciating. | Six shoots exist. | Repeat three existing growing pots at a larger scale; retain every leaf and vein; caption “Six seedlings grew — more than half.” | Appreciation of the growth, without erasing the missing growth. |
-| Pessimism | The missing growth dominates my view. | Four pots have no shoots. | Repeat two existing bare pots at a larger scale; emphasize their soil and rims; caption “Four seedlings did not grow — two in five.” | Disappointment or concern about missing growth, without removing successful growth. |
-| Curiosity | Understand the result before judging. | Both counts are known; causes and expectations are unknown. | Give the full scene equal attention; draw a separate observation sheet recording 6/4 and unanswered questions. | Interest in finding out more. Curiosity is an additional inquiry stance, not a claim of perfect neutrality. |
+`optimism.py`, `pessimism.py`, `curiosity.py` draw the paper and aperture boundaries with visible Turtle strokes. They do not simulate transparency by painting white. The complete editable art and real holes are in the SVG layers. `scene.json` holds the shared garden paths; `manifest.json` defines the aperture coordinates. `starter.py` remains the historical simple shape. Run Turtle scripts with `python -i filename.py` to keep the window open.
 
-The inset is a selection, not a claim that it shows every pot in that outcome group. Pot numbers trace each magnified detail back to the complete garden. The observation sheet is an editorial annotation outside the scene, not an object that appears only in one physical garden.
+Text-only participation: describe what each page would reveal or hide and what its lift would show. SVGs have descriptive titles and descriptions; the local review offers labelled keyboard-operable buttons, text descriptions and reduced motion.
 
-## What the seedling example explains
-
-“Six grew” and “Four did not grow” describe complementary parts of the same outcome. Their emphasis may influence interpretation. We now extend that idea to visual emphasis: the physical scene is fixed, while a caption and annotation guide attention. This is an illustrative creative exercise, not a psychological test or proof of a universal viewer response. Different accent colors are design choices; isolate caption effects separately if testing wording alone.
-
-Do not add rain, dead plants, happy faces, butterflies, new growth, blame, or predictions to manufacture a viewpoint. Do not draw roots or causes we cannot see. A growing result cannot be judged good or bad without expectations or comparison.
-
-Reflection: Which strokes were observations? Which were editorial choices? Did your intended feeling reach the viewer? What would you need to know before judging the garden?
-
-## Files and use
-
-`optimism.py`, `pessimism.py` and `curiosity.py` are standalone standard-library Turtle drawings. Run `python -i optimism.py` to keep the window open. `starter.py` preserves the original simple shape. All active strokes use `st()`; pen-up travel and final holds use `ht()`. No video or audio is created.
-
-SVGs carry descriptive title/alt text. `scene.json` stores shared physical paths and pot identities; `manifest.json` records constraints. Private source includes a reproducible static asset builder and updated screenplays. Videos remain on hold, and the website is not deployed by this revision.
+Video screenplays are updated in the private source repository. **Video creation remains on hold.** This Git revision does not publish a website page.

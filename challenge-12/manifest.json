@@ -1,265 +1,25 @@
 {
   "id": "12",
-  "revision": 2,
-  "title": "Same garden. Different feeling.",
-  "starter_paths": [
-    [
-      [
-        422.0,
-        220.0
-      ],
-      [
-        421.812,
-        222.872
-      ],
-      [
-        421.25,
-        225.694
-      ],
-      [
-        420.325,
-        228.419
-      ],
-      [
-        419.053,
-        231.0
-      ],
-      [
-        417.454,
-        233.393
-      ],
-      [
-        415.556,
-        235.556
-      ],
-      [
-        413.393,
-        237.454
-      ],
-      [
-        411.0,
-        239.053
-      ],
-      [
-        408.419,
-        240.325
-      ],
-      [
-        405.694,
-        241.25
-      ],
-      [
-        402.872,
-        241.812
-      ],
-      [
-        400.0,
-        242.0
-      ],
-      [
-        397.128,
-        241.812
-      ],
-      [
-        394.306,
-        241.25
-      ],
-      [
-        391.581,
-        240.325
-      ],
-      [
-        389.0,
-        239.053
-      ],
-      [
-        386.607,
-        237.454
-      ],
-      [
-        384.444,
-        235.556
-      ],
-      [
-        382.546,
-        233.393
-      ],
-      [
-        380.947,
-        231.0
-      ],
-      [
-        379.675,
-        228.419
-      ],
-      [
-        378.75,
-        225.694
-      ],
-      [
-        378.188,
-        222.872
-      ],
-      [
-        378.0,
-        220.0
-      ],
-      [
-        378.188,
-        217.128
-      ],
-      [
-        378.75,
-        214.306
-      ],
-      [
-        379.675,
-        211.581
-      ],
-      [
-        380.947,
-        209.0
-      ],
-      [
-        382.546,
-        206.607
-      ],
-      [
-        384.444,
-        204.444
-      ],
-      [
-        386.607,
-        202.546
-      ],
-      [
-        389.0,
-        200.947
-      ],
-      [
-        391.581,
-        199.675
-      ],
-      [
-        394.306,
-        198.75
-      ],
-      [
-        397.128,
-        198.188
-      ],
-      [
-        400.0,
-        198.0
-      ],
-      [
-        402.872,
-        198.188
-      ],
-      [
-        405.694,
-        198.75
-      ],
-      [
-        408.419,
-        199.675
-      ],
-      [
-        411.0,
-        200.947
-      ],
-      [
-        413.393,
-        202.546
-      ],
-      [
-        415.556,
-        204.444
-      ],
-      [
-        417.454,
-        206.607
-      ],
-      [
-        419.053,
-        209.0
-      ],
-      [
-        420.325,
-        211.581
-      ],
-      [
-        421.25,
-        214.306
-      ],
-      [
-        421.812,
-        217.128
-      ],
-      [
-        422.0,
-        220.0
-      ]
-    ],
-    [
-      [
-        400,
-        242
-      ],
-      [
-        400,
-        310
-      ]
-    ],
-    [
-      [
-        365,
-        280
-      ],
-      [
-        400,
-        260
-      ],
-      [
-        435,
-        280
-      ]
-    ],
-    [
-      [
-        400,
-        310
-      ],
-      [
-        375,
-        350
-      ]
-    ],
-    [
-      [
-        400,
-        310
-      ],
-      [
-        425,
-        350
-      ]
-    ],
-    [
-      [
-        200,
-        350
-      ],
-      [
-        600,
-        350
-      ]
-    ]
+  "revision": 3,
+  "title": "Same garden. Different frame.",
+  "principle": "Selective presentation through physical cutouts; related to framing",
+  "base": "garden-base.svg",
+  "base_sha256": "c018ca711dd2080a131226238915e99742572759ebee0d4c95e35ee2d3b17bb7",
+  "coordinate_system": [
+    800,
+    850
   ],
-  "principle": "Framing through captions and selective visual emphasis",
+  "print_mm": [
+    200,
+    212.5
+  ],
+  "garden_translation": [
+    0,
+    100
+  ],
   "fixed_facts": {
-    "total_pots": 10,
-    "growing_ids": [
+    "total": 10,
+    "growing": [
       1,
       2,
       3,
@@ -267,41 +27,138 @@
       7,
       8
     ],
-    "no_shoot_ids": [
+    "not_growing": [
       4,
       5,
       9,
       10
     ]
   },
-  "rules": [
-    "Preserve starter and complete physical garden across interpretations.",
-    "Insets repeat existing details, never add plants.",
-    "Change editorial emphasis and caption, not outcome or causes."
-  ],
-  "examples": [
-    {
-      "id": "optimism",
-      "image": "challenge-12-optimism.svg",
-      "code": "optimism.py",
+  "pages": {
+    "optimism": {
+      "title": "Look what grew.",
+      "subtitle": "A page of growth",
+      "color": "#456c48",
+      "paper": "#edf0d9",
+      "ids": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "holes": [
+        [
+          92,
+          358,
+          36,
+          94
+        ],
+        [
+          137,
+          358,
+          36,
+          94
+        ],
+        [
+          182,
+          358,
+          36,
+          94
+        ],
+        [
+          492,
+          358,
+          36,
+          94
+        ],
+        [
+          537,
+          358,
+          36,
+          94
+        ],
+        [
+          582,
+          358,
+          36,
+          94
+        ]
+      ],
       "thought": "There is growth worth appreciating.",
-      "caption": "Six seedlings grew \u2014 more than half."
+      "question": "Does this glimpse tell the whole story?"
     },
-    {
-      "id": "pessimism",
-      "image": "challenge-12-pessimism.svg",
-      "code": "pessimism.py",
+    "pessimism": {
+      "title": "Look what is missing.",
+      "subtitle": "A page of absences",
+      "color": "#8d5947",
+      "paper": "#eee1cf",
+      "ids": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "holes": [
+        [
+          227,
+          398,
+          36,
+          54
+        ],
+        [
+          272,
+          398,
+          36,
+          54
+        ],
+        [
+          627,
+          398,
+          36,
+          54
+        ],
+        [
+          672,
+          398,
+          36,
+          54
+        ]
+      ],
       "thought": "The missing growth dominates my view.",
-      "caption": "Four seedlings did not grow \u2014 two in five."
+      "question": "What might exist outside these openings?"
     },
-    {
-      "id": "curiosity",
-      "image": "challenge-12-curiosity.svg",
-      "code": "curiosity.py",
-      "thought": "Understand the result before judging.",
-      "caption": "Of ten seedlings, six grew and four did not."
+    "curiosity": {
+      "title": "What else is there?",
+      "subtitle": "A page for looking again",
+      "color": "#416b7c",
+      "paper": "#e5ece6",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "holes": [
+        [
+          55,
+          235,
+          705,
+          500
+        ]
+      ],
+      "thought": "I want the whole result before judging.",
+      "question": "What do we know? What is still unknown?"
     }
-  ],
+  },
+  "assembly": "One removable overlay at a time, aligned above the same base. Never stack all three.",
   "video_status": "screenplay_only_on_hold",
   "website_status": "not_deployed"
 }
