@@ -1,35 +1,54 @@
-# Challenge 12 — Same garden. Different frame.
+# Challenge 12 — Same start. Different emphasis.
 
-**Revision 3: cutout-book edition.** One detailed garden sits behind three illustrated paper pages. Their openings reveal different evidence. Lift a page to discover what it hid.
+Revision 4 restores the Many Maybes format: **one simple fixed starter → three different illustrated interpretations**. Cutout pages are an optional second stage, not the main task.
 
-## Review the designs
+## The starter
 
-| Page | Closed-page design | Transparent overlay | Cutting template |
-|---|---|---|---|
-| Optimism | [Look what grew](challenge-12-optimism.svg) | [Six windows](optimism-overlay.svg) | [Template](optimism-cut-template.svg) |
-| Pessimism | [Look what is missing](challenge-12-pessimism.svg) | [Four windows](pessimism-overlay.svg) | [Template](pessimism-cut-template.svg) |
-| Curiosity | [What else is there?](challenge-12-curiosity.svg) | [Wide window](curiosity-overlay.svg) | [Template](curiosity-cut-template.svg) |
+[Download starter SVG](challenge-12-starter.svg) · [PNG](challenge-12-starter.png) · [Turtle source](starter.py)
 
-[The complete garden revealed](garden-base.svg) · [Detailed design and assembly plan](DESIGN-PLAN.md)
+Ten simple pots in two rows. The first three in each row have two-leaf shoots; the remaining two have none. Keep all original marks, positions and growth unchanged and visible. The unrelated person-and-line starter has been removed.
 
-Download `review.html` and open it in a browser for a self-contained page-lift comparison and print layouts. GitHub displays its source rather than running it. No website deployment or sign-in is needed.
+![Ten-pot starter](challenge-12-starter.png)
 
-![Optimism mask over the garden](challenge-12-optimism.svg)
-![Pessimism mask over the same garden](challenge-12-pessimism.svg)
-![Curiosity mask over the same garden](challenge-12-curiosity.svg)
+## Three illustrations
 
-## The challenge
+### Optimism — A little growth, worth noticing
 
-Use the supplied complete garden as your starter. Design three opaque foreground pages with openings that invite optimistic, pessimistic and curious readings. Keep the base unchanged: ten pots, six with shoots, four without. You may hide parts with the foreground page; you may not alter the underlying result. Explain your thought, the evidence you reveal, the evidence you conceal and the feeling you intend. Then lift the page and ask whether your viewer's impression changes.
+![Optimism](challenge-12-optimism.png)
 
-The old person-and-line starter remains within the garden but is no longer the entire task brief. The original seedling wording example introduces the related idea of framing. Masks go further by withholding evidence: say so explicitly. Different viewers may respond differently; the images are not a psychological test.
+An illustrated garden journal groups six growing pots inside ornate green-and-gold medallions, with scrollwork and a drawn pencil. The four bare pots remain plainly visible. Thought: **there is growth worth appreciating**. Drawing decision: give that evidence the most prominent frames and detail.
 
-## Assemble or draw
+### Pessimism — Four gaps take over the page
 
-Print base and overlay at identical scale. Cut the inner openings and align the registration crosses. Place **one overlay at a time** over the base. Do not stack all three. Read the detailed plan before assembly; a physical print/cut trial has not yet been performed.
+![Pessimism](challenge-12-pessimism.png)
 
-`optimism.py`, `pessimism.py`, `curiosity.py` draw the paper and aperture boundaries with visible Turtle strokes. They do not simulate transparency by painting white. The complete editable art and real holes are in the SVG layers. `scene.json` holds the shared garden paths; `manifest.json` defines the aperture coordinates. `starter.py` remains the historical simple shape. Run Turtle scripts with `python -i filename.py` to keep the window open.
+A heavy rust-colored inspection block surrounds the four bare pots. Arrows, brackets and hatching concentrate attention on their lack of shoots. Six growing pots remain visible on the left. Thought: **the missing growth dominates my view**. Drawing decision: make the four absences the page's strongest visual group.
 
-Text-only participation: describe what each page would reveal or hide and what its lift would show. SVGs have descriptive titles and descriptions; the local review offers labelled keyboard-operable buttons, text descriptions and reduced motion.
+### Curiosity — Before judging, look at all ten
 
-Video screenplays are updated in the private source repository. **Video creation remains on hold.** This Git revision does not publish a website page.
+![Curiosity](challenge-12-curiosity.png)
+
+A blue field-notebook grid gives every pot equal space, labels and observation lines. Question boxes distinguish the known counts from unknown expectations and causes. Thought: **understand before judging**. Drawing decision: organize both outcomes equally and leave room for questions.
+
+## Your task
+
+1. Copy the starter three times. Keep every pot and shoot unchanged, in the same relative position. Uniform scaling of the whole starter is allowed.
+2. Add drawings around the starter to suggest optimism, pessimism and curiosity. Use composition, frames, annotation lines, color, decorative detail and captions. Do not cover or move the starter.
+3. Explain: **my thought → evidence selected → marks added → intended feeling**.
+4. Show the pictures without explaining your intended viewpoint first. Ask what someone notices and how they interpret the result. A different reaction is useful feedback.
+
+Do not invent a cause, extra growth, dead roots or a changed outcome. Six grew; four did not. Good/bad performance cannot be established without an expectation or comparison. Curiosity is an inquiry stance, not a claim of perfect neutrality.
+
+## Optional second stage: cutout reveal
+
+Only after finishing the additive drawings, make a separate removable mask. `optimism-overlay.svg` reveals the six growing pots; `pessimism-overlay.svg` reveals four bare pots; `curiosity-overlay.svg` reveals all ten. Every mask uses the new 1200×1000 coordinate system and can be aligned over an illustration. Lift to reveal what was hidden. Do not apply the old revision-3 templates: they used different geometry.
+
+The distinction matters: added frames **emphasize visible evidence**; optional masks **withhold evidence**. Both guide interpretation, but they are not identical mechanisms.
+
+## Review and source
+
+Download `review.html` and open locally. It includes the starter, all three illustrations and optional mask toggles. No deployment or sign-in is needed. GitHub shows HTML source instead of running it.
+
+SVG and PNG files are provided. Standalone Turtle scripts use the same polyline geometry, show the turtle during active strokes, and hide it during travel and final holds. Run `python -i optimism.py`, `pessimism.py`, `curiosity.py` or `starter.py`. Text is written as labels; drawing strokes are traced. No video or audio is produced.
+
+See [the design plan](DESIGN-PLAN.md) and [validation record](VALIDATION.md). Private production screenplays are updated. **Video creation remains on hold; no website deployment is included.**

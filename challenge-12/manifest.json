@@ -1,21 +1,13 @@
 {
   "id": "12",
-  "revision": 3,
-  "title": "Same garden. Different frame.",
-  "principle": "Selective presentation through physical cutouts; related to framing",
-  "base": "garden-base.svg",
-  "base_sha256": "c018ca711dd2080a131226238915e99742572759ebee0d4c95e35ee2d3b17bb7",
+  "revision": 4,
+  "title": "Same start. Different emphasis.",
+  "starter": "challenge-12-starter.svg",
+  "starter_code": "starter.py",
+  "principle": "Framing through additive visual emphasis",
   "coordinate_system": [
-    800,
-    850
-  ],
-  "print_mm": [
-    200,
-    212.5
-  ],
-  "garden_translation": [
-    0,
-    100
+    1200,
+    1000
   ],
   "fixed_facts": {
     "total": 10,
@@ -34,131 +26,13 @@
       10
     ]
   },
-  "pages": {
-    "optimism": {
-      "title": "Look what grew.",
-      "subtitle": "A page of growth",
-      "color": "#456c48",
-      "paper": "#edf0d9",
-      "ids": [
-        1,
-        2,
-        3,
-        6,
-        7,
-        8
-      ],
-      "holes": [
-        [
-          92,
-          358,
-          36,
-          94
-        ],
-        [
-          137,
-          358,
-          36,
-          94
-        ],
-        [
-          182,
-          358,
-          36,
-          94
-        ],
-        [
-          492,
-          358,
-          36,
-          94
-        ],
-        [
-          537,
-          358,
-          36,
-          94
-        ],
-        [
-          582,
-          358,
-          36,
-          94
-        ]
-      ],
-      "thought": "There is growth worth appreciating.",
-      "question": "Does this glimpse tell the whole story?"
-    },
-    "pessimism": {
-      "title": "Look what is missing.",
-      "subtitle": "A page of absences",
-      "color": "#8d5947",
-      "paper": "#eee1cf",
-      "ids": [
-        4,
-        5,
-        9,
-        10
-      ],
-      "holes": [
-        [
-          227,
-          398,
-          36,
-          54
-        ],
-        [
-          272,
-          398,
-          36,
-          54
-        ],
-        [
-          627,
-          398,
-          36,
-          54
-        ],
-        [
-          672,
-          398,
-          36,
-          54
-        ]
-      ],
-      "thought": "The missing growth dominates my view.",
-      "question": "What might exist outside these openings?"
-    },
-    "curiosity": {
-      "title": "What else is there?",
-      "subtitle": "A page for looking again",
-      "color": "#416b7c",
-      "paper": "#e5ece6",
-      "ids": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10
-      ],
-      "holes": [
-        [
-          55,
-          235,
-          705,
-          500
-        ]
-      ],
-      "thought": "I want the whole result before judging.",
-      "question": "What do we know? What is still unknown?"
-    }
-  },
-  "assembly": "One removable overlay at a time, aligned above the same base. Never stack all three.",
+  "primary_rule": "Keep every original mark visible and unchanged. Add illustration around it.",
+  "optional_rule": "Only in stage two may a separate removable mask hide marks; lift to reveal them.",
+  "examples": [
+    "optimism",
+    "pessimism",
+    "curiosity"
+  ],
   "video_status": "screenplay_only_on_hold",
   "website_status": "not_deployed"
 }
