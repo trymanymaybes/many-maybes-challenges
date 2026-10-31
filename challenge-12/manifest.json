@@ -1,38 +1,18 @@
 {
-  "id": "12",
-  "revision": 4,
-  "title": "Same start. Different emphasis.",
-  "starter": "challenge-12-starter.svg",
-  "starter_code": "starter.py",
-  "principle": "Framing through additive visual emphasis",
-  "coordinate_system": [
-    1200,
-    1000
-  ],
-  "fixed_facts": {
-    "total": 10,
-    "growing": [
-      1,
-      2,
-      3,
-      6,
-      7,
-      8
-    ],
-    "not_growing": [
-      4,
-      5,
-      9,
-      10
-    ]
-  },
-  "primary_rule": "Keep every original mark visible and unchanged. Add illustration around it.",
-  "optional_rule": "Only in stage two may a separate removable mask hide marks; lift to reveal them.",
-  "examples": [
+  "challenge": 12,
+  "revision": 5,
+  "title": "The wind has picked up",
+  "starter": "person and wavy line",
+  "principle": "How an outlook guides imagined additions",
+  "interpretations": [
     "optimism",
     "pessimism",
     "curiosity"
   ],
-  "video_status": "screenplay_only_on_hold",
-  "website_status": "not_deployed"
+  "video_authorized": false,
+  "alt": {
+    "optimism": "The unchanged person and line become a kite flyer on an open hill, with a patterned kite, ribbon tail, birds, grass, flowers and picnic basket.",
+    "pessimism": "The unchanged person holds a rope attached to a strained campsite shelter. Dark cloud outlines, slanting rain, loose fabric and scattered objects illustrate an imagined worry.",
+    "curiosity": "The unchanged person holds a windsock tether beside a homemade weather station, three test ribbons and an open field notebook. The scene invites observation rather than predicting an outcome."
+  }
 }

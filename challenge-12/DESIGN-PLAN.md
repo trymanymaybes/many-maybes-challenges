@@ -1,53 +1,31 @@
-# Revision 4 design plan
+# Revision 5 design — one windy moment
 
-## Goal and scope
+## Purpose and thinking principle
 
-Preserve Many Maybes' additive drawing format. The starter now consists of ten simple pots, six containing shoots. Participants create meaning by adding around those marks. The earlier person-and-line and complete garden are superseded; no compatibility with the previous cutout coordinates is claimed.
+Make the chain legible: outlook → expectation → chosen object → supporting marks → intended feeling. This is a creative exercise in interpretation and anticipation, not a demonstration that thought changes external facts. No named psychological law is asserted without recovering and verifying the original source list.
 
-## Geometry contract
+## Fixed starter and format
 
-Canvas 1200×1000. Pot centers x=200,390,580,790,980; bases y=460,700. Pot IDs 1–5 in first row, 6–10 in second. Growing IDs 1,2,3,6,7,8; bare IDs 4,5,9,10. All examples embed the exact same `fixed-starter` paths, in the same position, color, width and order. Additions occupy the surrounding space. All ten remain visible in the main illustrations.
+A neutral stick figure near the left of the canvas holds a wavy line rising toward the upper right. The six path objects, including the head, body, limbs and line, are identical in all three examples. The posture is deliberately fixed: the earlier proposal to change the pose would violate the starter constraint. Emotion therefore comes from setting, action and composition. No masking, erasing or recolouring the starter.
 
-The fixed mark is a pot rim, tapered sides and soil line, plus a two-leaf shoot for six pots. Labels and border artwork are additions, not starter constraints.
+## Drawing directions
 
-## Composition choices
-
-| View | Feeling or thought | Added drawing system | Evidence left visible |
+| Outlook | First addition at the line endpoint | Supporting additions | Intended feeling |
 |---|---|---|---|
-| Optimism | Appreciate growth | Six green/gold oval medallions, double grouping frame, scrollwork, ornament, journal typography and pencil | Four unframed bare pots remain visible at right |
-| Pessimism | Missing growth dominates attention | Heavy rust inspection block at right, four rectangular frames, inward arrows, corner brackets and hatch marks | All six growing pots remain visible at left |
-| Curiosity | Understand before judging | Equal-cell blue notebook grid, ruler marks, numbering, observation lines and question boxes | All ten receive equal visual treatment |
+| Optimism | Diamond kite whose bottom vertex meets the line | Cross spars, ribbon tail and bows; spacious sky, birds, sun; hillside, grass, flowers; picnic blanket, basket and flask | Opportunity and anticipation |
+| Pessimism | Shelter corner tied to the line | Asymmetric shelter, strained seams and loose fabric; cloud bank and slanted rain; flying map, fallen cup, cloth and bag | Worry about losing control |
+| Curiosity | Windsock mouth attached to tether | Striped windsock; test ribbons at different heights; vane and cup rotor on tripod; table and open notebook | Investigation and agency |
 
-The drawings are different compositions, not an identical full garden with three side panels. No pot is enlarged, moved, obscured or altered in the main task. The sun-like journal seal is a page ornament, not a claim about different weather. Frames are illustrated editorial devices, not new facts about plant care.
+## Relation to the garden example
 
-## Thinking methodology
+The garden example supplied mixed evidence: six shoots and four bare pots. Here the equivalent shared starting material is the person, the unfinished line, and the verbal situation “the wind has picked up.” There is no numerical equivalent to the seedlings. The mechanism has changed from emphasizing existing evidence to imagining a possible scene. Explain that distinction openly rather than pretending the examples demonstrate the same thing.
 
-1. State the thought: “There is growth worth appreciating.”
-2. Identify the existing evidence: six shoots.
-3. Choose marks that make that evidence prominent: medallions, grouping, line weight, detail.
-4. Keep the other evidence visible: four bare pots.
-5. Ask a viewer what stands out. Intended emotion is not guaranteed.
+## Art and animation
 
-For pessimism, use the same reasoning with the four missing shoots. For curiosity, organize all observations and ask for missing context. Do not treat a pleasing composition as proof of any psychological law.
+1200×1000 warm paper canvas. Dark green fixed starter; restrained green/gold, muted rust, or blue/gold additions. Keep readable negative space around the person. Additions are unfilled line art so they cannot opaque-cover the starter. Thumbnail review must reveal different silhouettes, not just colour differences.
 
-## Turtle and screenplay sequence
+Draw starter first. Pause on the unfinished endpoint. Reveal the main object, then supporting details in deliberate groups with narration explaining why. Visible turtle for strokes; hidden turtle for travel. A separate guide stick figure may follow the turtle and make a brief hop along a kite spar, shelter peg or tripod. It must never alter the starter character or cover an important stroke. Avoid comic celebration during the worry scene.
 
-Draw the simple starter once. Reset to the exact same starter before each illustration. Then animate only the additions, explaining each meaningful group while the visible turtle draws it. Ornate curves are sampled paths; all are reproducible from source. Use st() on drawing strokes and ht() on travel and clean holds. Typography may be written, but the illustrated frame must be drawn rather than faded in.
+## Deliverables and status
 
-A separate warm-orange guide follows the turtle along the margins; use brief acrobatics between chapters. It must never cover or modify the fixed pots. Pause for 3 seconds on each finished composition. Long form explains all three thought-to-stroke decisions. The challenge short provides the starter and hints without showing all solutions. The illustration short explains the optimism example.
-
-## Optional cutout stage
-
-This is a second activity, after the additive drawings. Opaque page with transparent openings uses matching 1200×1000 coordinates. Selected-pot windows span x=center±37, y=base−139 through base+4. Wide curiosity window spans x100..1110 and y280..770. Print mask and chosen illustration at exactly the same scale; use one overlay at a time. Lift to restore the entire drawing. A physical print/cut test remains pending.
-
-Primary stage retains all evidence and changes emphasis. Secondary stage hides evidence and demonstrates selective presentation. Explain this distinction explicitly. Optional mask controls in `review.html` are off initially.
-
-## Deliverables
-
-- Simple starter SVG/PNG and Turtle source.
-- Three distinct full-page SVG/PNG illustrations and matching Turtle sources.
-- Geometry data and manifest for exact fixed-mark validation.
-- Three optional transparent masks and local review HTML.
-- Three revised complete video screenplays in the private repository.
-
-No audio/video rendering or publication. Website remains undeployed for this challenge.
+Starter + three SVG/PNG illustrations, matching standalone Turtle programs, scene data, accessible descriptions, review page, long screenplay and two short screenplays. No video, voiceover, music or social upload has been authorized. Review the art and narration before production. Earlier cutouts remain only in Git history.

@@ -1,54 +1,32 @@
-# Challenge 12 — Same start. Different emphasis.
+# Challenge 12 — The wind has picked up
 
-Revision 4 restores the Many Maybes format: **one simple fixed starter → three different illustrated interpretations**. Cutout pages are an optional second stage, not the main task.
+Revision 5 replaces the ten-pot emphasis exercise with a person holding a wavy line.
 
-## The starter
+**Prompt:** The wind has picked up. What does your thinking make you draw next?
 
-[Download starter SVG](challenge-12-starter.svg) · [PNG](challenge-12-starter.png) · [Turtle source](starter.py)
+Keep the person and every part of the wavy line unchanged and visible. Add a complete scene that imagines an opportunity, a worry, or a question. You may add colour and details; do not erase, move, trace over or hide the starter. There is no single correct completion.
 
-Ten simple pots in two rows. The first three in each row have two-leaf shoots; the remaining two have none. Keep all original marks, positions and growth unchanged and visible. The unrelated person-and-line starter has been removed.
+![Starter](challenge-12-starter.png)
 
-![Ten-pot starter](challenge-12-starter.png)
+## Three examples
 
-## Three illustrations
-
-### Optimism — A little growth, worth noticing
+- **Optimism:** “This wind can lift something.” The line becomes a kite string. The kite, tail, birds, open hillside and picnic details convey anticipated enjoyment.
+- **Pessimism:** “What if I cannot hold on?” The line becomes a shelter rope. Strained fabric, rain and scattered belongings convey anticipated loss.
+- **Curiosity:** “What can this wind do?” The line becomes a windsock tether. Ribbons, a weather station and notebook turn uncertainty into investigation.
 
 ![Optimism](challenge-12-optimism.png)
-
-An illustrated garden journal groups six growing pots inside ornate green-and-gold medallions, with scrollwork and a drawn pencil. The four bare pots remain plainly visible. Thought: **there is growth worth appreciating**. Drawing decision: give that evidence the most prominent frames and detail.
-
-### Pessimism — Four gaps take over the page
-
 ![Pessimism](challenge-12-pessimism.png)
-
-A heavy rust-colored inspection block surrounds the four bare pots. Arrows, brackets and hatching concentrate attention on their lack of shoots. Six growing pots remain visible on the left. Thought: **the missing growth dominates my view**. Drawing decision: make the four absences the page's strongest visual group.
-
-### Curiosity — Before judging, look at all ten
-
 ![Curiosity](challenge-12-curiosity.png)
 
-A blue field-notebook grid gives every pot equal space, labels and observation lines. Question boxes distinguish the known counts from unknown expectations and causes. Thought: **understand before judging**. Drawing decision: organize both outcomes equally and leave room for questions.
+The pictures are different imagined possibilities from an ambiguous starter. They are not three factual reports of identical weather. Thoughts guide the additions; they do not change actual weather. Curiosity is an alternative stance, not a guaranteed cure for worry.
 
-## Your task
+## Try it
 
-1. Copy the starter three times. Keep every pot and shoot unchanged, in the same relative position. Uniform scaling of the whole starter is allowed.
-2. Add drawings around the starter to suggest optimism, pessimism and curiosity. Use composition, frames, annotation lines, color, decorative detail and captions. Do not cover or move the starter.
-3. Explain: **my thought → evidence selected → marks added → intended feeling**.
-4. Show the pictures without explaining your intended viewpoint first. Ask what someone notices and how they interpret the result. A different reaction is useful feedback.
+1. Copy the starter or run starter.py.
+2. Choose a thought before choosing an object.
+3. Complete the line, then add three details that support that thought.
+4. Ask: which marks came from the starter, and which came from my expectation?
 
-Do not invent a cause, extra growth, dead roots or a changed outcome. Six grew; four did not. Good/bad performance cannot be established without an expectation or comparison. Curiosity is an inquiry stance, not a claim of perfect neutrality.
+Use review.html for a side-by-side review. Each Python file is a standalone standard-library Turtle program; run with Python and a desktop Tk installation. The turtle is visible while drawing and hidden while repositioning. SVG and Turtle share path data. Full alt descriptions are in manifest.json and SVG accessibility labels.
 
-## Optional second stage: cutout reveal
-
-Only after finishing the additive drawings, make a separate removable mask. `optimism-overlay.svg` reveals the six growing pots; `pessimism-overlay.svg` reveals four bare pots; `curiosity-overlay.svg` reveals all ten. Every mask uses the new 1200×1000 coordinate system and can be aligned over an illustration. Lift to reveal what was hidden. Do not apply the old revision-3 templates: they used different geometry.
-
-The distinction matters: added frames **emphasize visible evidence**; optional masks **withhold evidence**. Both guide interpretation, but they are not identical mechanisms.
-
-## Review and source
-
-Download `review.html` and open locally. It includes the starter, all three illustrations and optional mask toggles. No deployment or sign-in is needed. GitHub shows HTML source instead of running it.
-
-SVG and PNG files are provided. Standalone Turtle scripts use the same polyline geometry, show the turtle during active strokes, and hide it during travel and final holds. Run `python -i optimism.py`, `pessimism.py`, `curiosity.py` or `starter.py`. Text is written as labels; drawing strokes are traced. No video or audio is produced.
-
-See [the design plan](DESIGN-PLAN.md) and [validation record](VALIDATION.md). Private production screenplays are updated. **Video creation remains on hold; no website deployment is included.**
+Cutout masks belong to the earlier attention exercise and are retired from this revision. Screenplays are prepared in the production repository; video generation remains on hold.
